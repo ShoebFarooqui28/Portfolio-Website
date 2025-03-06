@@ -1,7 +1,7 @@
-import React from 'react'
-import Hero from '../assets/Hero.png'
-import ContactButton from '../components/ContactButton'
-import '../styles/Home.css'
+import React from 'react';
+import Hero from '../assets/Hero.png';
+import ContactButton from '../components/ContactButton';
+import '../styles/Home.css';
 
 const Home = () => {
   return (
@@ -16,18 +16,18 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Right Side - Image & Button*/}
+        {/* Right Side - Image & Button */}
         <div className="right col-lg-4 p-4">
-          <img src={Hero} alt="person-coding" className="hero-img img-fluid"/>
+          <img src={Hero} alt="person-coding" className="hero-img img-fluid" />
 
-            <div className="contact p-5">
-              <ContactButton />
-            </div>
+          <div className="contact p-5">
+            <ContactButton />
+          </div>
 
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
