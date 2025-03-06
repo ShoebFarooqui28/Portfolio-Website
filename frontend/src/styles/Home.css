@@ -1,0 +1,6 @@
+.wrapper{
+  padding: 0;
+}
+.hero-img{
+  filter: grayscale(50%);
+}
