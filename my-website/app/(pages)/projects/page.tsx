@@ -16,7 +16,7 @@ const projects = [
     description:
       "My own developer portfolio built with Next.js, Tailwind, and ShadCN UI — clean, responsive, and minimal.",
     tech: ["Next.js", "Tailwind CSS", "ShadCN UI", "TypeScript", "Next API"],
-    url: "/home"
+    url: "/"
   },
   {
     title: "Pomodoro App",
