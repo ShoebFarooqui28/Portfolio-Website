@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Footer from "@/components/ui/footer";
+import Link from "next/link";
 
 const projects = [
   {
@@ -8,24 +9,28 @@ const projects = [
     description:
       "A React Native app for Umrah pilgrims — features include Duas, prayer times, trip planner, maps & more.",
     tech: ["React Native", "Expo", "Clerk", "AsyncStorage", "Google Maps API", "NativeWind"],
+    url: "#"
   },
   {
     title: "Portfolio Website",
     description:
       "My own developer portfolio built with Next.js, Tailwind, and ShadCN UI — clean, responsive, and minimal.",
     tech: ["Next.js", "Tailwind CSS", "ShadCN UI", "TypeScript", "Next API"],
+    url: "/home"
   },
   {
     title: "Pomodoro App",
     description:
       "A productivity app that uses the Pomodoro technique to help you manage your time effectively.",
     tech: ["React", "Express", "Node.js", "Tailwind"],
+    url: "https://focusflow-pomodoro.vercel.app/"
   },
   {
     title:"FreshForcast",
     description:
       "A weather app that provides real-time weather updates and forecasts for any location.",
-    tech: ["Java", "OpenWeather API"]
+    tech: ["Java", "OpenWeather API"],
+    url: "#"
   }
 ];
 
@@ -41,7 +46,9 @@ const ProjectsPage = () => {
           {projects.map((project, index) => (
             <Card key={index} className="bg-primary/80 text-foreground shadow-lg rounded-2xl">
               <CardHeader>
+                <Link href={project.url}>
                 <CardTitle className="text-2xl text-muted">{project.title}</CardTitle>
+                </Link>
                 <CardDescription className="text-base">{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
