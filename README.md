@@ -4,14 +4,39 @@ Welcome to my personal portfolio website! Built with **Next.js 14**, **Tailwind 
 
 ---
 
-## 🚀 Tech Stack
+## 🔧 Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/), [ShadCN UI](https://ui.shadcn.com/)
-- **Icons**: [Lucide Icons](https://lucide.dev/)
-- **Animations & Components**: [Framer Motion](https://www.framer.com/motion/), custom UI components
-- **Backend**: Next.js API Routes (e.g., `/api/contactapi`)
-- **Email**: NodeMailer (set up to send messages from the contact form to my email)
+### 🧱 Framework
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+</p>
+
+### 🎨 Styling
+<p>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/ShadCN_UI-black?style=for-the-badge" alt="ShadCN UI"/>
+</p>
+
+### 🔣 Icons
+<p>
+  <img src="https://img.shields.io/badge/Lucide_Icons-000000?style=for-the-badge" alt="Lucide Icons"/>
+</p>
+
+### ✨ Animations & Components
+<p>
+  <img src="https://img.shields.io/badge/Framer_Motion-EF0179?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"/>
+  <img src="https://img.shields.io/badge/Custom_UI_Components-gray?style=for-the-badge" alt="Custom UI"/>
+</p>
+
+### ⚙️ Backend
+<p>
+  <img src="https://img.shields.io/badge/Next.js_API_Routes-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js API"/>
+</p>
+
+### 📧 Email Service
+<p>
+  <img src="https://img.shields.io/badge/NodeMailer-green?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeMailer"/>
+</p>
 
 ---
 
